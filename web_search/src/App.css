@@ -1,0 +1,173 @@
+.App-header {
+  background-color: #1f2937; /* Schimbare fundal spre gri închis */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f3f4f6; /* Alb-gri pentru text */
+}
+
+.App-link {
+  color: #3b82f6; /* Albastru pentru linkuri */
+}
+
+.meniu_style {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: #4b5563; /* Fundal gri închis */
+  padding: 10px 0;
+}
+
+.link_style {
+  color: #e5e7eb; /* Gri deschis */
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#searchBox {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchButton {
+  margin-left: 10px;
+  background-color: #22c55e; /* Verde intens */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #16a34a; /* Verde mai închis la hover */
+}
+
+#editButton {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #2563eb; /* Albastru intens */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#editButton:hover {
+  background-color: #1d4ed8; /* Albastru mai închis la hover */
+}
+
+#deleteButton {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #dc2626; /* Roșu intens */
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deleteButton:hover {
+  background-color: #b91c1c; /* Roșu mai închis la hover */
+}
+
+#ListOfWorks {
+  margin: 50px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#ListOfWorks th {
+  background-color: #e5e7eb; /* Gri deschis */
+  color: #1f2937; /* Gri închis */
+  padding: 10px;
+}
+
+#ListOfWorks tr {
+  height: 50px;
+  border-bottom: 1px solid #d1d5db; /* Linie separatoare gri */
+}
+
+#ListOfWorks td {
+  text-align: center;
+  padding: 10px;
+}
+
+#ListOfWorks caption {
+  padding: 25px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#formular {
+  margin: 50px auto;
+  width: 400px;
+  padding: 20px;
+  background-color: #f9fafb; /* Alb foarte deschis */
+  border: 1px solid #d1d5db; /* Bordură gri */
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#titlu_formular {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1f2937; /* Gri închis */
+}
+
+#formular input[type="text"] {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+#formular input[type="button"] {
+  height: 40px;
+  width: 100px;
+  background-color: #6b7280; /* Gri mediu */
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+#formular input[type="button"]:hover {
+  background-color: #4b5563; /* Gri mai închis */
+}
+
+#AddButton {
+  margin: 20px auto;
+  display: block;
+  background-color: #22c55e; /* Verde intens */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#AddButton:hover {
+  background-color: #16a34a; /* Verde mai închis la hover */
+}
